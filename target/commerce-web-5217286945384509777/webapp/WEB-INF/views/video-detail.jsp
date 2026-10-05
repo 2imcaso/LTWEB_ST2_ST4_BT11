@@ -1,0 +1,7 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<%@ taglib prefix="c" uri="jakarta.tags.core" %>
+<!doctype html><html lang="vi"><head><title>Chi tiết video</title></head><body>
+<nav class="breadcrumb" aria-label="Đường dẫn"><a href="${pageContext.request.contextPath}/home">Trang chủ</a><span>/</span><span><c:out value="${video.category.categoryName}"/></span></nav>
+<div class="detail-layout"><article><div class="cinema-stage"><img src="<c:out value='${video.poster}'/>" alt="<c:out value='${video.title}'/>"><span class="badge stage-label">Ảnh giới thiệu video</span></div><div class="detail-heading"><span class="badge"><c:out value="${video.category.categoryName}"/></span><h1><c:out value="${video.title}"/></h1><div class="stats"><span>◉ ${video.views} lượt xem</span><span>♡ ${likes} lượt thích</span><span>↗ ${shares} lượt chia sẻ</span></div></div><section class="panel description"><h2>Giới thiệu video</h2><p><c:out value="${video.description}" default="Chưa có mô tả cho video này."/></p></section></article>
+<aside class="panel video-info"><p class="eyebrow">THÔNG TIN VIDEO</p><h2>Chi tiết nội dung</h2><dl class="detail-list"><dt>Mã video</dt><dd><c:out value="${video.videoId}"/></dd><dt>Danh mục</dt><dd><c:out value="${video.category.categoryName}"/></dd><dt>Lượt xem</dt><dd>${video.views}</dd><dt>Lượt thích</dt><dd>${likes}</dd><dt>Lượt chia sẻ</dt><dd>${shares}</dd></dl><a class="button" href="${pageContext.request.contextPath}/home">← Quay lại kho video</a></aside></div>
+</body></html>

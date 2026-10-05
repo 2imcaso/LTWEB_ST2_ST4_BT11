@@ -1,0 +1,2 @@
+<%@ page pageEncoding="UTF-8" %>
+<header class="studio-header"><a class="brand" href="${ctx}/admin">▶ Vid<span>Stream</span></a><span class="studio-badge">● CMS Studio</span><div class="studio-spacer"></div><a class="button" href="${ctx}/admin/videos#video-form">＋ Thêm video mới</a><div class="studio-user"><span class="avatar">Q</span><div><strong><c:out value="${sessionScope.user.fullname}"/></strong><small>Quản trị viên</small></div></div></header>

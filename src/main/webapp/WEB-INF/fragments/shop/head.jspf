@@ -1,0 +1,5 @@
+<%@ page pageEncoding="UTF-8" %>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link href="${pageContext.request.contextPath}/assets/app.css" rel="stylesheet">
+<link href="${pageContext.request.contextPath}/assets/commerce.css?v=1" rel="stylesheet">

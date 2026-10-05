@@ -1,0 +1,2 @@
+<%@ page pageEncoding="UTF-8" %>
+<footer><div class="footer-grid"><div><a class="brand" href="${ctx}/home">Vid<span>Stream</span></a><p>Nền tảng khám phá và chia sẻ video.<br>Kết nối tri thức, công nghệ và cảm hứng.</p></div><div><h3>Khám phá</h3><a href="${ctx}/home">Kho video</a><a href="${ctx}/home#categories">Danh mục video</a></div><div><h3>Thông tin sinh viên</h3><p>Bùi Phạm Đức Thắng<br>MSSV: 24133056 · Mã đề: 03</p></div></div><div class="footer-bottom">© VidStream · Video Platform <span>Thiết kế theo Cinema Modern</span></div></footer>

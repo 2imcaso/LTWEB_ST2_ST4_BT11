@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemesh>
+    <include-error-pages>false</include-error-pages>
+    <mapping path="/*" decorator="user.jsp" />
+    <mapping path="/admin" decorator="admin.jsp" />
+    <mapping path="/admin/*" decorator="admin.jsp" />
+    <mapping path="/assets/*" exclude="true" />
+</sitemesh>

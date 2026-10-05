@@ -1,0 +1,155 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< vn.edu.hcmute:24133056 >-----------------------
+[INFO] Building 24133056 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ 24133056 ---
+[INFO] Deleting C:\Users\buiph\Documents\workspace-spring-tools-for-eclipse-5.3.0.RELEASE\24133056\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ 24133056 ---
+[INFO] Copying 2 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ 24133056 ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 41 source files with javac [debug release 22] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ 24133056 ---
+[INFO] Copying 0 resource from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ 24133056 ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 3 source files with javac [debug release 22] to target\test-classes
+[INFO] 
+[INFO] --- surefire:3.5.3:test (default-test) @ 24133056 ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running KTGK.de03.controllers.CommerceWebTest
+thg 10 05, 2026 9:28:35 SA org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate ORM core version 6.6.11.Final
+thg 10 05, 2026 9:28:35 SA org.hibernate.cache.internal.RegionFactoryInitiator initiateService
+INFO: HHH000026: Second-level cache disabled
+thg 10 05, 2026 9:28:36 SA org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using built-in connection pool (not intended for production use)
+thg 10 05, 2026 9:28:37 SA org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator initiateService
+INFO: HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:commerce-web;MODE=MySQL;DB_CLOSE_DELAY=-1]
+	Database driver: org.h2.Driver
+	Database version: 2.3.232
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+thg 10 05, 2026 9:28:42 SA org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+thg 10 05, 2026 9:28:42 SA org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2ec85a25] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+thg 10 05, 2026 9:28:43 SA org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@282c4da0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+thg 10 05, 2026 9:28:45 SA org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-127.0.0.1-auto-1"]
+thg 10 05, 2026 9:28:45 SA org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+thg 10 05, 2026 9:28:45 SA org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/10.1.44]
+thg 10 05, 2026 9:28:45 SA org.apache.catalina.startup.ContextConfig getDefaultWebXmlFragment
+INFO: No global web.xml found
+thg 10 05, 2026 9:28:46 SA org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+thg 10 05, 2026 9:28:46 SA org.sitemesh.webapp.contentfilter.ContentBufferingFilter init
+INFO: SiteMesh 3.2.2 initialized with filter name 'sitemesh'
+thg 10 05, 2026 9:28:46 SA org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-127.0.0.1-auto-1-55289"]
+thg 10 05, 2026 9:28:57 SA org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-127.0.0.1-auto-1-55289"]
+thg 10 05, 2026 9:28:57 SA org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+thg 10 05, 2026 9:28:57 SA org.apache.catalina.loader.WebappClassLoaderBase checkThreadLocalsForLeaks
+WARNING: You need to add "--add-opens=java.base/java.lang=ALL-UNNAMED" to the JVM command line arguments to enable ThreadLocal memory leak detection. Alternatively, you can suppress this warning by disabling ThreadLocal memory leak detection.
+thg 10 05, 2026 9:28:57 SA org.apache.catalina.loader.WebappClassLoaderBase clearReferencesRmiTargets
+WARNING: You need to add "--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED" to the JVM command line arguments to enable RMI Target memory leak detection. Alternatively, you can suppress this warning by disabling RMI Target memory leak detection.
+thg 10 05, 2026 9:28:57 SA org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-127.0.0.1-auto-1-55289"]
+thg 10 05, 2026 9:28:57 SA org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-127.0.0.1-auto-1-55289"]
+thg 10 05, 2026 9:28:57 SA org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6ec98ccc] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 22.62 s -- in KTGK.de03.controllers.CommerceWebTest
+[INFO] Running KTGK.de03.service.CommercePersistenceTest
+thg 10 05, 2026 9:28:57 SA org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+INFO: HHH000204: Processing PersistenceUnitInfo [name: jpa-hibernate-mysql]
+thg 10 05, 2026 9:28:57 SA org.hibernate.cache.internal.RegionFactoryInitiator initiateService
+INFO: HHH000026: Second-level cache disabled
+thg 10 05, 2026 9:28:57 SA org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using built-in connection pool (not intended for production use)
+thg 10 05, 2026 9:28:58 SA org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl constructDialect
+WARN: HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+thg 10 05, 2026 9:28:58 SA org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator initiateService
+INFO: HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:full-app;MODE=MySQL;DB_CLOSE_DELAY=-1]
+	Database driver: org.h2.Driver
+	Database version: 2.3.232
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+thg 10 05, 2026 9:28:58 SA org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+thg 10 05, 2026 9:28:58 SA org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3703a400] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.347 s -- in KTGK.de03.service.CommercePersistenceTest
+[INFO] Running KTGK.de03.service.CommerceServiceTest
+thg 10 05, 2026 9:28:58 SA org.hibernate.cache.internal.RegionFactoryInitiator initiateService
+INFO: HHH000026: Second-level cache disabled
+thg 10 05, 2026 9:28:58 SA org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using built-in connection pool (not intended for production use)
+thg 10 05, 2026 9:28:58 SA org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator initiateService
+INFO: HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:commerce;MODE=MySQL;DB_CLOSE_DELAY=-1;LOCK_TIMEOUT=10000]
+	Database driver: org.h2.Driver
+	Database version: 2.3.232
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+thg 10 05, 2026 9:28:59 SA org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+thg 10 05, 2026 9:28:59 SA org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@64e3bc2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+thg 10 05, 2026 9:28:59 SA org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@54ed249f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+thg 10 05, 2026 9:28:59 SA org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+WARN: SQL Error: 23513, SQLState: 23513
+thg 10 05, 2026 9:28:59 SA org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+ERROR: Check constraint violation: "CONSTRAINT_5F2: "; SQL statement:
+update shop_orders set status='UNKNOWN' where id=10 [23513-232]
+thg 10 05, 2026 9:28:59 SA org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+WARN: SQL Error: 23513, SQLState: 23513
+thg 10 05, 2026 9:28:59 SA org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+ERROR: Check constraint violation: "CONSTRAINT_C02: "; SQL statement:
+update shop_products set stock=-1 where id=45 [23513-232]
+thg 10 05, 2026 9:29:00 SA org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@30a5a58d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO] Tests run: 38, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.241 s -- in KTGK.de03.service.CommerceServiceTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 45, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- war:3.4.0:war (default-war) @ 24133056 ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [24133056] in [C:\Users\buiph\Documents\workspace-spring-tools-for-eclipse-5.3.0.RELEASE\24133056\target\24133056]
+[INFO] Processing war project
+[INFO] Copying webapp resources [C:\Users\buiph\Documents\workspace-spring-tools-for-eclipse-5.3.0.RELEASE\24133056\src\main\webapp]
+[INFO] Building war: C:\Users\buiph\Documents\workspace-spring-tools-for-eclipse-5.3.0.RELEASE\24133056\target\24133056.war
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  45.704 s
+[INFO] Finished at: 2026-10-05T09:29:06+07:00
+[INFO] ------------------------------------------------------------------------
